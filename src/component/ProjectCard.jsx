@@ -23,7 +23,10 @@ const ProjectCard = ({title,description,image,demo,code,tech=[]}) => {
             rel="noopener noreferrer" 
             className='flex-1 text-center px-4 py-2 bg-black rounded-lg
             font-medium text-white hover:bg-gray-500'>View Demo</a>
-            <a href="#" className='flex-1 text-center px-4 py-2 border border-black  rounded-lg
+            <a href={code}
+            target='_blank'
+            rel='noopener noreferrer'
+             className='flex-1 text-center px-4 py-2 border border-black  rounded-lg
             font-medium hover:bg-gray-500 transition duration-300'>Code</a>
           </div>
         </div>

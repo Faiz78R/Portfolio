@@ -9,12 +9,12 @@ const About = () => {
      transition={{duration:0.6,ease:'easeOut'}}
      viewport={{once:true}}
      id='about'
-     className='py-20 bg-gradient-to-r from-purple-500
-     via-pink-500 to-red-500 '
+     className='py-20  bg-gradient-to-r from-slate-900 via-indigo-950
+    to-purple-900 '
     >
       <div className='container mx-0 px-6'>
         <h2 className='text-3xl font-bold text-center mb-4 text-white mt-4' >About
-          <span className='text-green-950'>Me</span>
+          <span className='text-indigo-400'>Me</span>
         </h2>
         <p className='text-white text-center max-w-2xl mx-auto mb-16'>Get to know more about my background and passion</p>
         {/* image+ my journey */}

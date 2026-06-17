@@ -12,13 +12,13 @@ const Projects = () => {
      transition={{duration:0.6,ease:'easeOut'}}
      viewport={{once:true}}
      id='project'
-     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-purple-500
-     via-pink-500 to-red-500'
+     className='min-h-screen flex items-center pt-20 pb-16  bg-gradient-to-r from-slate-900 via-indigo-950
+    to-purple-900'
     >
       <div className='container mx-auto px-6'>
         <h2 className='text-3xl text-white font-bold text-center mb-4 mt-4'>
             My 
-            <span className='text-green-950'>Projects</span>
+            <span className='text-indigo-400'>Projects</span>
         </h2>
         <p className='text-white text-center max-w-2xl mx-auto mb-16'>A selection of my recent work.</p>
         <div className='grid grid-cols-1 md:grid-cols-2

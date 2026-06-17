@@ -9,17 +9,17 @@ const Hero = () => {
      transition={{duration:0.6,ease:'easeOut'}}
      viewport={{once:true}}
      id='home'
-     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-purple-500
-     via-pink-500 to-red-500'
+     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-slate-900 via-indigo-950
+    to-purple-900'
     >
      <div className='container mx-auto px-6 flex flex-col md:flex-row
      items-center justify-between'>'
      <div className='md:w-1/2 mb-10  md:mb-0'>
      <h1 className='text-4xl md:text-6xl font-bold mb-4 text-white'>
-        Hi, I'm <span className='text-green-950'>Faiz Ahmad</span>
+        Hi, I'm <span className='text-indigo-400'>Faiz Ahmad</span>
              </h1>
      <h2 className='text-2xl md:text-4xl font-semibold mb-6 text-white typewriter'>Full Stack Developer</h2>
-     <p className='text-lg text-gray-800 mb-8'>I build high-quality, scalable web applications using modern
+     <p className='text-lg text-slate-300 mb-8'>I build high-quality, scalable web applications using modern
         technologies, focusing on clean design,performance, and seamless user experience.
      </p>
      <div className='flex space-x-4'>

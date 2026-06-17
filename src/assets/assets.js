@@ -86,7 +86,7 @@ export const projects = [
     tech: ["React", "Node.js", "MongoDB", "OpenRouter","Postman"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "https://ai-mern-project-client.onrender.com",
-    code: "#",
+    code: "https://github.com/Faiz78R/AI-MERN-PROJECT",
   },
   {
     title: "Task Management App",
@@ -112,8 +112,8 @@ export const projects = [
     image: projectImg4,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://portfolio-one-jet-e6jdfntjkg.vercel.app/",
+    code: "https://github.com/Faiz78R/Portfolio",
   },
   {
     title: "Chat App",

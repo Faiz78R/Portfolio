@@ -9,32 +9,32 @@ const Contact = () => {
      transition={{duration:0.6,ease:'easeOut'}}
      viewport={{once:true}}
      id='contact'
-     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-purple-500
-     via-pink-500 to-red-500'
+     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-slate-900 via-indigo-950
+    to-purple-900 '
     >
       <div className='container mx-auto px-6'>
         <h2 className='text-3xl font-bold text-center mb-4 mt-4 text-white'>
             Get In 
-            <span className='text-green-950'>Touch</span>
+            <span className='text-indigo-400'>Touch</span>
         </h2>
         <p className='text-white text-center max-w-2xl mx-auto mb-16'>Have a project in mind or want to collaborate? Let's talk!</p>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto'>
             <div>
                 <form className='space-y-6'>
                     <div>
-                        <label htmlFor="name" className='block text-black mb-2'>Your Name</label>
+                        <label htmlFor="name" className='block text-indigo-400 font-bold mb-2'>Your Name</label>
                         <input 
                         className='w-full bg-white border border-dark-400 rounded-lg px-4 py-3'
                         type="text" />
                     </div>
                     <div>
-                        <label htmlFor="email" className='block text-black mb-2'>Email Address </label>
+                        <label htmlFor="email" className='block  text-indigo-400 font-bold mb-2'>Email Address </label>
                         <input 
                         className='w-full bg-white border border-dark-400 rounded-lg px-4 py-3'
                         type="email" />
                     </div>
                     <div>
-                        <label htmlFor="message" className='block text-black mb-2'>Your Message</label>
+                        <label htmlFor="message" className='block  text-indigo-400 font-bold mb-2'>Your Message</label>
                         <textarea
                         className='w-full h-40 bg-white border border-dark-400 rounded-lg px-4 py-3'
                         type="text" />
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
             <div className='space-y-8'>
                 <div className='flex items-start'>
-                    <div className='text-green-950 text-2xl mr-4'>
+                    <div className='text-indigo-400 text-2xl mr-4'>
                         <FaMapMarkerAlt/>
                     </div>
                     <div>
@@ -54,7 +54,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex items-start'>
-                    <div className='text-green-950 text-2xl mr-4'>
+                    <div className='text-indigo-400 text-2xl mr-4'>
                         <FaEnvelope/>
                     </div>
                     <div>
@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex items-start'>
-                    <div className='text-green-950 text-2xl mr-4'>
+                    <div className='text-indigo-400 text-2xl mr-4'>
                         <FaPhone/>
                     </div>
                     <div>
